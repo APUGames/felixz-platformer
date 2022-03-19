@@ -8,18 +8,18 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Pass Throughs
   - Water
   - UI
   - Ground
   - Climbing
   - Background
   - Collectable
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Player
+  - Hazards
+  - Pick-Ups
+  - Coin Collider
   - 
   - 
   - 
@@ -50,6 +50,21 @@ TagManager:
   - name: Climbing
     uniqueID: 2845098247
     locked: 0
+  - name: Pass Through
+    uniqueID: 3256078419
+    locked: 0
   - name: Player
     uniqueID: 3288018655
+    locked: 0
+  - name: Enemy
+    uniqueID: 2420625287
+    locked: 0
+  - name: Pick-Ups
+    uniqueID: 328175477
+    locked: 0
+  - name: Exit
+    uniqueID: 2814102223
+    locked: 0
+  - name: Hazards
+    uniqueID: 3031143559
     locked: 0
