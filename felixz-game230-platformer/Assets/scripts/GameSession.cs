@@ -48,6 +48,11 @@ public class GameSession : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void AddLife()
+    {
+        Lives++;
+    }
+
     private void SubtractLife()
     {
         Lives--;

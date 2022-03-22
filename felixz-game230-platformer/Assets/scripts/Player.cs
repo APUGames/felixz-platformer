@@ -6,8 +6,8 @@ public class Player : MonoBehaviour
 {
     [SerializeField] bool isAlive = true;
     [SerializeField] Vector2 deathSeq = new Vector2(26f,26f);
-    [SerializeField] AudioClip jumpSound;
     AudioSource audioSource;
+    [SerializeField] AudioClip jumpSound;
     [SerializeField] float runSpeed = 26.0f;
     [SerializeField] float jumpSpeed = 26.0f;
     [SerializeField] float climbSpeed = 26.0f;
@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         playerCharacter = GetComponent<Rigidbody2D>();
         playerAnimator = GetComponent<Animator>();
         playerBodyCollider = GetComponent<CapsuleCollider2D>();
@@ -98,10 +99,11 @@ public class Player : MonoBehaviour
             {
                 return;
             }
-
+            
             Vector2 jumpVelocity = new Vector2(0.0f, jumpSpeed);
             playerCharacter.velocity += jumpVelocity;
-            audioSource.PlayOneShot(jumpSound, 1.0f);
+            AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position, 0.5f);
+            
         }
     }
     private void Jump2()
@@ -165,7 +167,7 @@ public class Player : MonoBehaviour
         
     }
 
-        private void Die()
+        public void Die()
         {
             if(playerBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")))
             {

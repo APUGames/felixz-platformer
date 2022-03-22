@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/level1.unity
+    path: Assets/Scenes/Homey Home (0-0).unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Bright Beach (1-1).unity
     guid: a55f0f41b8a2385438a66a22565e1f4a
   - enabled: 1
-    path: Assets/Scenes/level2.unity
+    path: Assets/Scenes/Crabby Cave (1-2).unity
+    guid: 4e1389dcd231d9c4cb5d4f63c856fdbb
+  - enabled: 1
+    path: Assets/Scenes/Stonepile Shore (1-3).unity
     guid: e9df8e138f3914c4fae8ee54527baa99
+  - enabled: 1
+    path: Assets/Scenes/Tidal Terror (1-4).unity
+    guid: 9f0be6f2a24f4644a80bf65cbf324139
+  - enabled: 1
+    path: Assets/Scenes/Secure Space (End).unity
+    guid: 0af4792ee9163fc4999e08ef0eee88ab
   m_configObjects: {}

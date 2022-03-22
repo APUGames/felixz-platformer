@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -748,6 +749,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      starter_moon_map2_18: 2765966287779376185
+      starter_moon_map2_0: -1149458074636320645
+      starter_moon_map2_8: 2107152314779510803
+      starter_moon_map2_12: 5599504789279795826
+      starter_moon_map2_16: 7001345146416961512
+      starter_moon_map2_23: 660399794959748158
+      starter_moon_map2_7: -6277450124686239884
+      starter_moon_map2_19: 4600045115994063556
+      starter_moon_map2_9: 9024176063234527397
+      starter_moon_map2_14: 4443184872687001685
+      starter_moon_map2_11: 5417396555814296352
+      starter_moon_map2_4: -8811884957459685990
+      starter_moon_map2_10: -5724114493422824007
+      starter_moon_map2_3: -1664893595802969507
+      starter_moon_map2_2: -8618591428540352624
+      starter_moon_map2_6: 4653769867639285353
+      starter_moon_map2_1: -3738012538911676418
+      starter_moon_map2_22: -6779408181877677821
+      starter_moon_map2_15: 2545828015858350074
+      starter_moon_map2_17: 6965295122444714154
+      starter_moon_map2_13: 5551313021460758750
+      starter_moon_map2_20: -4136562769151784387
+      starter_moon_map2_21: -8243916011098411953
+      starter_moon_map2_5: 4248986447994763621
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

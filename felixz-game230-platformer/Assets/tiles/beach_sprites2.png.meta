@@ -93,6 +93,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -735,6 +736,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      beach_sprites2_14: -1804917240580488612
+      beach_sprites2_20: -4524724987471558481
+      beach_sprites2_10: -8653488187120021109
+      beach_sprites2_15: 137719754281589671
+      beach_sprites2_5: 1666952688079061587
+      beach_sprites2_7: 1863243075078863581
+      beach_sprites2_8: -1248716622426111620
+      beach_sprites2_9: -7837155885921510919
+      beach_sprites2_3: 1038658132932540510
+      beach_sprites2_22: -1232935365863801696
+      beach_sprites2_6: -1924880756321132914
+      beach_sprites2_2: 4400434747650503073
+      beach_sprites2_21: -8299645805383833649
+      beach_sprites2_11: 458619269700372781
+      beach_sprites2_0: 2679986721449749321
+      beach_sprites2_12: -6444719585912470650
+      beach_sprites2_18: -4473185237417852855
+      beach_sprites2_16: 5303077221665511372
+      beach_sprites2_4: -2694914793723896811
+      beach_sprites2_13: 8041820773353300990
+      beach_sprites2_17: 7914884972773640428
+      beach_sprites2_1: -7357621833836613102
+      beach_sprites2_19: -8366770801358284189
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
