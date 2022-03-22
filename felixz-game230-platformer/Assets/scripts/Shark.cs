@@ -10,6 +10,8 @@ public class Shark : MonoBehaviour
     CapsuleCollider2D bodyCollider;
     [SerializeField] float moveSpeed = 2.0f;
 
+
+
     void Start()
     {
 
@@ -42,7 +44,6 @@ public class Shark : MonoBehaviour
         yield return new WaitForSecondsRealtime(sharkDistance);
 
         transform.localScale = new Vector2(1.0f, -(Mathf.Sign(enemyCharacter.velocity.y)));
-
         StartCoroutine(processTask());
     }
 

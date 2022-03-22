@@ -207,7 +207,7 @@ MonoBehaviour:
   isAlive: 1
   deathSeq: {x: 1, y: 26}
   jumpSound: {fileID: 8300000, guid: 73ee18c1cdbf4df4690b09f996600442, type: 3}
-  runSpeed: 12
+  runSpeed: 10
   jumpSpeed: 15
   climbSpeed: 10
   normalJumpEnabled: 1
